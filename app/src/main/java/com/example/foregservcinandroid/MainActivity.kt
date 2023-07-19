@@ -49,8 +49,8 @@ class MainActivity : ComponentActivity() {
                         Button(onClick = {
                          //   smsManager.sendTextMessage("8148580586",null,"Great Day!",null,null)
 
-                           // val i = Intent(applicationContext,DoingSth::class.java)
-                         ///   startService(i)
+                            val i = Intent(applicationContext,DoingSth::class.java)
+                            startService(i)
                             }) {
                             Text(text = "Start Service")
                         }
